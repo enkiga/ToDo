@@ -13,3 +13,4 @@ This repository contains the code for a simple Todo App built with React, Next.j
 - React
 - Next.js
 - Zustand
+- Shadcn UI
