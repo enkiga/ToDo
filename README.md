@@ -14,3 +14,7 @@ This repository contains the code for a simple Todo App built with React, Next.j
 - Next.js
 - Zustand
 - Shadcn UI
+
+## Screenshot
+
+![ScreenShot](public/ScreenShot.png)
