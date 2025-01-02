@@ -68,7 +68,13 @@ export default function Home() {
               className="flex items-center space-x-2 mb-3 w-5/6 mx-auto md:w-1/3"
               key={todo.id}
             >
-              <Input value={todo.text} disabled={true} />
+              <Input
+                value={todo.text}
+                disabled={toggle}
+                onChange={(e) => {
+                  setUpdate({ ...todo, text: e.target.value });
+                }}
+              />
               <Button
                 variant="ghost"
                 size="sm"
